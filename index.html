@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Laptop Recommendation</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Laptop Recommendation System</h1>
+
+    <div class="container">
+
+        <label>Enter Budget (Min ₹30000)</label>
+        <input type="number" id="budget" min="30000" value="50000" class="budget-input">
+
+        <label>Select RAM</label>
+        <select id="ram">
+            <option value="8">8 GB</option>
+            <option value="16">16 GB</option>
+        </select>
+
+        <label>Select Storage</label>
+        <select id="storage">
+            <option value="256">256 GB</option>
+            <option value="512">512 GB</option>
+        </select>
+
+        <label>Select Processor Level</label>
+        <select id="processor">
+            <option value="6">Basic</option>
+            <option value="8">Medium</option>
+            <option value="9">High</option>
+        </select>
+
+        <button onclick="findLaptop()">Recommend</button>
+
+    </div>
+
+    <div id="output"></div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>

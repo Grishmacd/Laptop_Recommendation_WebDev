@@ -1,0 +1,47 @@
+body {
+    font-family: Arial;
+    background-color: #f4f6f9;
+    text-align: center;
+}
+
+h1 {
+    margin-top: 20px;
+    color:cornflowerblue;
+}
+
+.container {
+    background: white;
+    width: 320px;
+    margin: 20px auto;
+    padding: 20px;
+    box-shadow: 0 0 5px gray;
+}
+
+input, select, button {
+    width: 100%;
+    padding: 6px;
+    margin: 8px 0;
+}
+
+button {
+    background-color:darksalmon;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+.budget-input{
+    width: 95%;
+}
+
+
+button:hover {
+    background-color: darkblue;
+}
+
+.result {
+    background: white;
+    width: 320px;
+    margin: 15px auto;
+    padding: 10px;
+    box-shadow: 0 0 5px gray;
+}
